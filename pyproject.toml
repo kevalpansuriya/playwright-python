@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "flipkart-login-playwright-test"
+version = "0.1.0"
+description = "this project is demo for playwright python test where we write tests!"
+authors = ["kevalpansuriya <kevalpansuriya@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest-playwright = "^0.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
